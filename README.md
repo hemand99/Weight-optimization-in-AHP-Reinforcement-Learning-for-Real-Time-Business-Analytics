@@ -11,4 +11,4 @@ Why We Need It? Without this knob, the weights would change every single cycle, 
 How does it work? reward = new_avg_AHP_score - previous_avg_AHP_score
 If |reward| > 0.02 → market changed noticeably → system updates AHP weights
 If |reward| ≤ 0.02 → change is too small → system skips update
-### AHP_RL.png
+![A workflow of the project](AHP_RL.png). 
